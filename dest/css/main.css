@@ -265,7 +265,7 @@ aside li {
 #sidepage table th, #sidepage table td {
   min-width: 0; }
 #sidepage .main article {
-  width: 80%; }
+  width: 100%; }
 
 /* ==========================================================================
    Media Queries
