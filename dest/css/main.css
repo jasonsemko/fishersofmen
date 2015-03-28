@@ -237,6 +237,7 @@ nav a:hover {
 
 .footer-container footer {
   color: white;
+  min-height: 200px;
   padding: 20px 0; }
 
 /* ===============
@@ -251,8 +252,7 @@ nav a:hover {
 td, th {
   text-align: left;
   border: 1px solid #CCC;
-  padding: 5px 15px;
-  min-width: 160px; }
+  padding: 5px 15px; }
 
 aside ul {
   padding: 0; }
@@ -270,7 +270,7 @@ aside li {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 180px) {
   /* ====================
       INTERMEDIATE: Menu
      ==================== */
@@ -316,10 +316,7 @@ aside li {
     float: left; }
   .main aside {
     float: right;
-    width: 30%; }
-
-  table {
-    width: 50%; } }
+    width: 30%; } }
 @media only screen and (min-width: 1140px) {
   /* ===============
       Maximal Width

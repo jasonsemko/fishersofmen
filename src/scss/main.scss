@@ -121,6 +121,7 @@ nav {
 
 .footer-container footer {
   color: white;
+  min-height: 200px;
   padding: 20px 0;
 }
 
@@ -140,7 +141,6 @@ td, th {
   text-align: left;
   border: 1px solid #CCC;
   padding: 5px 15px;
-  min-width: 160px;
 }
 
 //Be Still
@@ -171,7 +171,7 @@ aside {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 180px) {
   /* ====================
       INTERMEDIATE: Menu
      ==================== */
@@ -233,9 +233,7 @@ aside {
     }
   }
 
-  table {
-    width: 50%;
-  }
+
 }
 
 @media only screen and (min-width: 1140px) {
