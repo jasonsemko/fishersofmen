@@ -4,7 +4,7 @@ grunt.initConfig({
         sass: {
             dist: {
                 options: {
-                    style: 'expand'
+                    style: 'compressed'
                 },
                 files: [{
                     expand: true,
